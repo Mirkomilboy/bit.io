@@ -1,0 +1,366 @@
+/* genereal classes */
+.z-1 {
+    z-index: -1;
+}
+
+.z-10 {
+    z-index: 10;
+}
+
+.z-20 {
+    z-index: 99999;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #EE5149;
+}
+
+.navbar-container {
+    max-width: 1400px;
+    padding: 125px 0 0;
+}
+
+.logo {
+    width: 120px;
+}
+
+.nav-btn {
+    color: #17296B;
+    font-size: 18px;
+    font-family: 'Comfortaa', cursive;
+    padding: 15px 88px;
+    font-weight: 700;
+    background-color: #fff;
+    box-shadow: 0px 1px 0px rgba(44, 76, 192, 0.6);
+    border-radius: 78px;
+}
+
+.hero {
+    width: 100%;
+    background-image: url('img/hero_circles.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: start;
+    background-size: 1400px;
+    height: 80vh;
+}
+
+.hero-right {
+    margin-top: -50px;
+    padding-left: 60px;
+}
+
+.hero-heading {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 600;
+    color: #fff;
+    font-size: 68px;
+}
+
+.hero-paragraph {
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+    color: #fff;
+}
+
+.email-input, .submit-input:focus {
+    outline: none;
+}
+
+.email-input {
+    background: #CD1A11;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    border: none;
+    border-radius: 80px;
+    padding: 14px 150px 14px 25px;
+}
+
+.email-input::placeholder {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+}
+
+.submit-input {
+    background: #fff;
+    color: #CD1A11;
+    font-size: 18px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    border: none;
+    border-radius: 80px;
+    margin-left: 35px;
+    padding: 14px 32px;
+}
+
+/* Quickly bring data */
+.data {
+    padding: 0 160px;
+}
+
+.data-heading {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: #fff;
+    padding-top: 115px;
+}
+
+.data-paragraph {
+    font-family: 'Comfortaa', cursive;
+    font-size: 16px;
+    line-height: 25px;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.terminal {
+    padding-top: 30px;
+    margin-left: -30px;
+    width: 1070px;
+    height: 580px;
+}
+
+.data-circle-big {
+    width: 800px;
+    top: 0%;
+    left: 45%;
+}
+
+.data-circle-middle {
+    top: 17%;
+    right: 0%;
+}
+
+.data-circle-little {
+    top: 45%;
+    right: 0%;
+}
+
+
+/* create repo */
+.repo-heading {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: #fff;
+    margin-top: 110px;
+    padding-top: 25px;
+}
+
+.repo-paragraph {
+    font-family: 'Comfortaa', cursive;
+    font-size: 16px;
+    line-height: 25px;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.repo-img {
+    margin-top: 70px;
+}
+
+.repo-db {
+    margin-left: -30px;
+}
+
+.repo-replica {
+    padding-left: 110px;
+}
+
+.line {
+    top: 65%;
+    left: 47%;
+}
+
+/* complete replica */
+.replica {
+    margin-top: 400px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#replica-heading {
+    margin-top: 0;
+}
+
+.circle-full {
+    top: 0%;
+    right: 10%;
+}
+
+.circle-empty-one {
+    top: 0%;
+    right: 10%;
+}
+
+.circle-empty-two {
+    top: 0%;
+    right: -20%;
+}
+
+/* share with team */
+.team {
+    margin-top: 200px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.team-img {
+    margin-left: -85px;
+}
+
+.team-circle-full {
+    width: 300px;
+    top: 48%;
+    right: 13%;
+}
+
+.team-circle-1 {
+    width: 300px;
+    top: 48%;
+    right: 38%;
+}
+
+.team-circle-2 {
+    width: 300px;
+    top: 20%;
+    right: 26%;
+}
+
+.team-circle-3 {
+    width: 300px;
+    top: 20%;
+    right: 1%;
+}
+
+.team-circle-4 {
+    width: 300px;
+    top: 48%;
+    right: -13%;
+}
+
+.team-circle-5 {
+    width: 300px;
+    right: 26%;
+    bottom: 4%;
+}
+
+.team-circle-6 {
+    width: 300px;
+    right: 1%;
+    bottom: 4%;
+}
+
+/* sign up */
+.sign-up {
+    background-color:  #060F41;
+}
+
+.sign-up-heading {
+    font-family: 'Comfortaa', cursive;
+    font-size: 68px;
+    line-height: 87px;
+    padding-top: 200px;
+}
+
+.sign-up-heading span {
+    color: #EE5149;
+}
+
+.sign-up .content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.union {
+    width: 90px;
+    padding-top: 150px;
+}
+
+.sign-up .content h3 {
+    color: #EE5149;
+    font-family: 'Comfortaa', cursive;
+    font-size: 28px;
+    line-height: 50px;
+    padding: 30px 0;
+}
+
+.vector {
+    width: 100px;
+}
+
+.sign-up .content a {
+    color: #fff;
+    background-color: #EE5149;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Comfortaa', cursive;
+    line-height: 16px;
+    padding: 16px 42px;
+    border-radius: 80px;
+    margin: 30px 0 170px;
+}
+
+/* footer */
+footer {
+    background-color: #F4F8FB;
+}
+
+.footer-content {
+    font-family: 'Comfortaa', cursive;
+    width: 1040px;
+    padding: 180px 0;
+}
+
+.footer-content div p {
+    font-weight: 700;
+    font-size: 14px;
+    color: #060F41;
+    padding-bottom: 36px;
+}
+
+.footer-content div a {
+    display: block;
+    font-size: 12px;
+    color: #060F41;
+    padding-bottom: 22px;
+}
+
+#beta-link {
+    color: #FDBD28;
+}
+
+.support, .follow {
+    padding-left: 120px;
+}
+
+.social {
+    padding-right: 35px;
+}
+
+.copyright {
+    margin-left: auto;
+}
+
+.copyright img {
+    float: right;
+}
+
+.copyright p {
+    padding-top: 90px;
+    float: right;
+    opacity: 0.2;
+}
