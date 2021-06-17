@@ -154,17 +154,47 @@ body {
 .data-circle-big {
     width: 800px;
     top: 0%;
-    left: 45%;
+    right: 12%;
+    animation: moving-big 9s cubic-bezier(0.68, -0.6, 0.32, 1.6) infinite;
+}
+
+@keyframes moving-big {
+    0%, 33.333333%, 100% {
+        right: 12%;
+    }
+    16.5% {
+        right: -50%;
+    }
 }
 
 .data-circle-middle {
     top: 17%;
     right: 0%;
+    animation: moving-middle 9s cubic-bezier(0.68, -0.6, 0.32, 1.6) infinite;
+}
+
+@keyframes moving-middle {
+    0%, 33.333333%, 66.666666%, 100% {
+        right: 0%;
+    }
+    50% {
+        right: -50%;
+    }
 }
 
 .data-circle-little {
     top: 45%;
-    right: 0%;
+    right: -2%;
+    animation: moving-little 9s cubic-bezier(0.68, -0.6, 0.32, 1.6) infinite;
+}
+
+@keyframes moving-little {
+    0%, 66.666666%, 100% {
+        right: -2%;
+    }
+    83.5% {
+        right: -50%;
+    }
 }
 
 
@@ -261,8 +291,8 @@ body {
     width: 300px;
     top: 48%;
     right: 13%;
-    animation: scale 5s linear infinite;
-    animation-delay: 2.5s;
+    animation: scale 4s ease-in-out infinite;
+    animation-delay: 2s;
 }
 
 @keyframes scale {
@@ -279,7 +309,7 @@ body {
     width: 300px;
     top: 48%;
     right: 38%;
-    animation: move-1 30s linear infinite;
+    animation: move-1 24s ease-in-out infinite;
 }
 
 @keyframes move-1 {
@@ -296,7 +326,7 @@ body {
     width: 300px;
     top: 20%;
     right: 26%;
-    animation: move-2 30s linear infinite;
+    animation: move-2 24s ease-in-out infinite;
     /* animation-delay: 5s; */
 }
 
@@ -316,7 +346,7 @@ body {
     width: 300px;
     top: 20%;
     right: 1%;
-    animation: move-3 30s linear infinite;
+    animation: move-3 24s ease-in-out infinite;
     /* animation-delay: 10s; */
 }
 
@@ -336,7 +366,7 @@ body {
     width: 300px;
     top: 48%;
     right: -13%;
-    animation: move-4 30s linear infinite;
+    animation: move-4 24s ease-in-out infinite;
     /* animation-delay: 15s; */
 }
 
@@ -356,7 +386,7 @@ body {
     width: 300px;
     right: 1%;
     top: 72%;
-    animation: move-5 30s linear infinite;
+    animation: move-5 24s ease-in-out infinite;
     /* animation-delay: 20s; */
 }
 
@@ -376,7 +406,7 @@ body {
     width: 300px;
     right: 26%;
     top: 72%;
-    animation: move-6 30s linear infinite;
+    animation: move-6 24s ease-in-out infinite;
     /* animation-delay: 25s; */
 }
 
