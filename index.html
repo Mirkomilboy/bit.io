@@ -10,77 +10,92 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- navigation -->
-    <nav class="navbar-container mx-auto d-flex justify-content-between">
-        <a href="index.html"><img class="logo" src="img/logo_white.svg" alt="logo"></a>
-        <a class="nav-btn text-decoration-none" href="#">visit bit.io</a>
-    </nav>
-
-    <!-- hero -->
-    <div class="hero d-flex align-items-center">
-        <div class="col-6"></div>
-        <div class="hero-right col-6">
-            <h1 class="hero-heading">Make bit.io your <br> analyst replica</h1>
-            <p class="hero-paragraph">Let us host your replicas... <br> Keeping your internal data safe.</p>
-            <form class="d-flex align-items-center" action="#">
-                <input class="email-input" type="email" name="" id="" placeholder="Your Email">
-                <input class="submit-input" type="submit" value="Join the Beta">
-            </form>
-        </div>
-    </div>
-
-    <!-- bring your data to bit.io -->
     <div class="position-relative">
-        <div class="data container mx-auto position-relative">
-            <h3 class="data-heading z-20">Quickly bring your data to bit.io</h3>
-            <p class="data-paragraph z-20">We’ll duplicate everything and host it on bit.io. <br> The last thing you want is someone overwritting <br> your production database.</p>
-            <img class="terminal z-20" src="img/data_terminal.png" alt="">
-        </div>
-        <img class="data-circle-big position-absolute z-1" src="img/data_circle_big.svg" alt="">
-        <img class="data-circle-middle position-absolute z-1" src="img/data_circle_middle.svg" alt="">
-        <img class="data-circle-little position-absolute z-1" src="img/data_little_circle.svg" alt="">
-    </div>
+        <img class="vertical-line position-absolute" src="img/vertical_line.svg" alt="">
+        <!-- navigation -->
+        <nav class="navbar-container mx-auto d-flex justify-content-between">
+            <a href="index.html"><img class="logo" src="img/logo_white.svg" alt="logo"></a>
+            <a class="nav-btn text-decoration-none" href="#">visit bit.io</a>
+        </nav>
 
-    <!-- create repo -->
-    <div class="position-relative">
-        <div class="data container mx-auto position-relative">
-            <h3 class="repo-heading z-20">We take all your tables and create a repo</h3>
-            <p class="repo-paragraph z-20">Let us take all your tables and package them <br> neatly into a single repo - they’ll stay synced <br> automatically with the newest data.</p>
-            <div class="repo-img d-flex align-items-center">
-                <img class="repo-db z-20 position-relative" src="img/create_repo_db.png" alt="">
-                <img class="repo-replica z-20" src="img/create_repo_replica.png" alt="">
-                <img class="line position-absolute" src="img/line.svg" alt="">
+        <!-- hero -->
+        <div class="hero d-flex align-items-center">
+            <div class="col-6"></div>
+            <div class="hero-right col-6">
+                <h1 class="hero-heading">Make bit.io your <br> analyst replica</h1>
+                <p class="hero-paragraph">Let us host your replicas... <br> Keeping your internal data safe.</p>
+                <form class="d-flex align-items-center" action="#">
+                    <input class="email-input" type="email" name="" id="" placeholder="Your Email">
+                    <input class="submit-input" type="submit" value="Join the Beta">
+                </form>
             </div>
         </div>
-        <img class="position-absolute top-0 end-0 z-1" src="img/create_repo_circles.png" alt="">
-    </div>
 
-    <!-- complete replica -->
-    <div class="replica position-relative">
-        <div class="data container mx-auto position-relative">
-            <h3 class="repo-heading z-20" id="replica-heading">An complete replica</h3>
-            <p class="repo-paragraph z-20">We allow you to set permissions at every level of <br> the repo. make them public or private. you can <br> even set keys that expire after a set time.</p>
-            <img class="repo-db z-20 position-relative" src="img/complete_replica.png" alt="">
+        <!-- bring your data to bit.io -->
+        <div class="position-relative">
+            <div class="d-flex container">
+                <p class="number first z-20">1</p>
+                <div class="data mx-auto position-relative">
+                    <h3 class="data-heading z-20">Quickly bring your data to bit.io</h3>
+                    <p class="data-paragraph z-20">We’ll duplicate everything and host it on bit.io. <br> The last thing you want is someone overwritting <br> your production database.</p>
+                    <img class="terminal z-20" src="img/data_terminal.png" alt="">
+                </div>
+            </div>
+            <img class="data-circle-big position-absolute z-1" src="img/data_circle_big.svg" alt="">
+            <img class="data-circle-middle position-absolute z-1" src="img/data_circle_middle.svg" alt="">
+            <img class="data-circle-little position-absolute z-1" src="img/data_little_circle.svg" alt="">
         </div>
-        <img class="circle-full position-absolute z-1" src="img/replica_circle_blue.svg" alt="">
-        <img class="circle-empty-two position-absolute z-1" src="img/replica_circle_red.svg" alt="">
-        <img class="circle-empty-one position-absolute z-1" src="img/replica_circle_empty.svg" alt="">
-    </div>
 
-    <!-- share with team -->
-    <div class="team position-relative">
-        <div class="data container mx-auto position-relative">
-            <h3 class="repo-heading z-20">Share with your teams</h3>
-            <p class="repo-paragraph z-20">easily add users to repos and tables - giving <br> them access to what they need, when they <br> need it.</p>
-            <img class="team-img z-20 position-relative" src="img/Share_with_team.png" alt="">
+        <!-- create repo -->
+        <div class="position-relative">
+            <div class="d-flex container">
+                <p class="number second z-20">2</p>
+                <div class="data mx-auto position-relative">
+                    <h3 class="repo-heading z-20">We take all your tables and create a repo</h3>
+                    <p class="repo-paragraph z-20">Let us take all your tables and package them <br> neatly into a single repo - they’ll stay synced <br> automatically with the newest data.</p>
+                    <div class="repo-img d-flex align-items-center">
+                        <img class="repo-db z-20 position-relative" src="img/create_repo_db.png" alt="">
+                        <img class="repo-replica z-20" src="img/create_repo_replica.png" alt="">
+                        <img class="line position-absolute" src="img/line.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <img class="position-absolute top-0 end-0 z-1" src="img/create_repo_circles.png" alt="">
         </div>
-        <img class="team-circle-full position-absolute z-1" src="img/share_circle_full.svg" alt="">
-        <img class="team-circle-1 position-absolute z-1" src="img/share_circle_empty.svg" alt="">
-        <img class="team-circle-2 position-absolute z-1" src="img/share_circle_empty.svg" alt="">
-        <img class="team-circle-3 position-absolute z-1" src="img/share_circle_empty.svg" alt="">
-        <img class="team-circle-4 position-absolute z-1" src="img/share_circle_empty.svg" alt="">
-        <img class="team-circle-5 position-absolute z-1" src="img/share_circle_empty.svg" alt="">
-        <img class="team-circle-6 position-absolute z-1" src="img/share_circle_empty.svg" alt="">
+
+        <!-- complete replica -->
+        <div class="replica position-relative">
+            <div class="d-flex container">
+                <p class="number third z-20">3</p>
+                <div class="data mx-auto position-relative">
+                    <h3 class="repo-heading z-20" id="replica-heading">An complete replica</h3>
+                    <p class="repo-paragraph z-20">We allow you to set permissions at every level of <br> the repo. make them public or private. you can <br> even set keys that expire after a set time.</p>
+                    <img class="repo-db z-20 position-relative" src="img/complete_replica.png" alt="">
+                </div>
+            </div>
+            <img class="circle-full position-absolute z-1" src="img/replica_circle_blue.svg" alt="">
+            <img class="circle-empty-two position-absolute z-1" src="img/replica_circle_red.svg" alt="">
+            <img class="circle-empty-one position-absolute z-1" src="img/replica_circle_empty.svg" alt="">
+        </div>
+
+        <!-- share with team -->
+        <div class="team position-relative">
+            <div class="d-flex container">
+                <p class="number fourth">4</p>
+                <div class="team-content position-relative">
+                    <h3 class="repo-heading z-20">Share with your teams</h3>
+                    <p class="repo-paragraph z-20">easily add users to repos and tables - giving <br> them access to what they need, when they <br> need it.</p>
+                    <img class="team-img z-20 position-relative" src="img/Share_with_team.png" alt="">
+                </div>
+            </div>
+            <img class="team-circle-full position-absolute z-1" src="img/share_circle_full.svg" alt="">
+            <img class="team-circle-1 position-absolute z-1" src="img/share_circle_empty.svg" alt="">
+            <img class="team-circle-2 position-absolute z-1" src="img/share_circle_empty.svg" alt="">
+            <img class="team-circle-3 position-absolute z-1" src="img/share_circle_empty.svg" alt="">
+            <img class="team-circle-4 position-absolute z-1" src="img/share_circle_empty.svg" alt="">
+            <img class="team-circle-5 position-absolute z-1" src="img/share_circle_empty.svg" alt="">
+            <img class="team-circle-6 position-absolute z-1" src="img/share_circle_empty.svg" alt="">
+        </div>
     </div>
 
     <!-- sign up -->

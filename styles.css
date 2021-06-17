@@ -19,6 +19,12 @@ body {
     background-color: #EE5149;
 }
 
+.vertical-line {
+    top: 0%;
+    /* left: 284px; */
+    left: 14.9%;
+}
+
 .navbar-container {
     max-width: 1400px;
     padding: 125px 0 0;
@@ -26,6 +32,7 @@ body {
 
 .logo {
     width: 120px;
+    margin-left: 70px;
 }
 
 .nav-btn {
@@ -102,6 +109,20 @@ body {
 }
 
 /* Quickly bring data */
+.number {
+    color: #EE5149;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 25px 34px;
+    background-color:  #060F41;
+    border-radius: 80px;
+    height: 80px;
+}
+
+.first {
+    margin: 90px 0 0 -60px;
+}
+
 .data {
     padding: 0 160px;
 }
@@ -148,13 +169,17 @@ body {
 
 
 /* create repo */
+.second {
+    margin: 100px 0 0 -60px;
+}
+
 .repo-heading {
     font-family: 'Comfortaa', cursive;
     font-weight: 700;
     font-size: 28px;
     line-height: 36px;
     color: #fff;
-    margin-top: 110px;
+    margin-top: 100px;
     padding-top: 25px;
 }
 
@@ -184,6 +209,10 @@ body {
 }
 
 /* complete replica */
+.third {
+    margin-left: -60px;
+}
+
 .replica {
     margin-top: 400px;
     width: 100%;
@@ -210,10 +239,18 @@ body {
 }
 
 /* share with team */
+.fourth {
+    margin: 100px 0 0 -60px;
+}
+
 .team {
     margin-top: 200px;
     width: 100%;
     overflow: hidden;
+}
+
+.team-content {
+    margin-left: 160px;
 }
 
 .team-img {
@@ -224,43 +261,136 @@ body {
     width: 300px;
     top: 48%;
     right: 13%;
+    animation: scale 5s linear infinite;
+    animation-delay: 2.5s;
 }
 
+@keyframes scale {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.7);
+    }
+}
+
+/* first circle */
 .team-circle-1 {
     width: 300px;
     top: 48%;
     right: 38%;
+    animation: move-1 30s linear infinite;
 }
 
+@keyframes move-1 {
+    0%, 16.66666%, 100% {
+        right: 38%;
+    }
+    8% {
+        right: 13%;
+    }
+}
+
+/* second circle */
 .team-circle-2 {
     width: 300px;
     top: 20%;
     right: 26%;
+    animation: move-2 30s linear infinite;
+    /* animation-delay: 5s; */
 }
 
+@keyframes move-2 {
+    0%, 16.66666%, 33.33333%, 100% {
+        top: 20%;
+        right: 26%;
+    }
+    25% {
+        top: 48%;
+        right: 13%;
+    }
+}
+
+/* third circle */
 .team-circle-3 {
     width: 300px;
     top: 20%;
     right: 1%;
+    animation: move-3 30s linear infinite;
+    /* animation-delay: 10s; */
 }
 
+@keyframes move-3 {
+    0%, 33.33333%, 50%, 100% {
+        top: 20%;
+        right: 1%;
+    }
+    42% {
+        top: 48%;
+        right: 13%;
+    }
+}
+
+/* fourth circle */
 .team-circle-4 {
     width: 300px;
     top: 48%;
     right: -13%;
+    animation: move-4 30s linear infinite;
+    /* animation-delay: 15s; */
 }
 
+@keyframes move-4 {
+    0%, 50%, 66.66666%, 100% {
+        top: 48%;
+        right: -13%;
+    }
+    58% {
+        top: 48%;
+        right: 13%;
+    }
+}
+
+/* fifth circle */
 .team-circle-5 {
     width: 300px;
-    right: 26%;
-    bottom: 4%;
+    right: 1%;
+    top: 72%;
+    animation: move-5 30s linear infinite;
+    /* animation-delay: 20s; */
 }
 
+@keyframes move-5 {
+    0%, 66.66666%, 83.33333%, 100% {
+        right: 1%;
+        top: 72%;
+    }
+    75% {
+        top: 48%;
+        right: 13%;
+    }
+}
+
+/* sixth circle */
 .team-circle-6 {
     width: 300px;
-    right: 1%;
-    bottom: 4%;
+    right: 26%;
+    top: 72%;
+    animation: move-6 30s linear infinite;
+    /* animation-delay: 25s; */
 }
+
+@keyframes move-6 {
+    0%, 83.33333%, 100% {
+        right: 26%;
+        top: 72%;
+    }
+    92% {
+        top: 48%;
+        right: 13%;
+    }
+}
+
 
 /* sign up */
 .sign-up {
