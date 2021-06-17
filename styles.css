@@ -59,6 +59,7 @@ body {
 .hero-right {
     margin-top: -50px;
     padding-left: 60px;
+    background: linear-gradient(to right, rgb(238 81 73 / 95%), #ee5149);
 }
 
 .hero-heading {
